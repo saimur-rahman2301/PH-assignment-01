@@ -211,3 +211,78 @@
     color: white;
     opacity: 0.8;
 }
+
+
+.sponsors {
+    padding: 70px 8%;
+    text-align: center;
+    color: #f8fafc;
+    background-color: #1E293B;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.tag {
+    color: #fbbf24;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sponsors h2 {
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.3;
+}
+
+.sponsors h2 span,
+.sponsor-card h3 span {
+    color: #fbbf24;
+}
+
+.subtitle {
+    color: #9ca3af;
+    margin-bottom: 35px;
+    line-height: 1.7;
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.sponsor-card {
+    padding: 30px 15px;
+    background-color: #334155;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.sponsor-card:hover {
+    transform: translateY(-5px);
+    border-color: #fbbf24;
+}
+
+.sponsor-card h3 {
+    font-size: 22px;
+}
+
+.sponsor-card p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.sponsor-btn {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 13px 24px;
+    background-color: #fbbf24;
+    color: #111827;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
